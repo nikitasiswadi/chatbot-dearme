@@ -1,0 +1,113 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hai", "Apa Kabar", "Apakah ada orang","Oi","Woi", "ada orang ga", "selamat siang", "Hallo", "Halo", "min", "sis", "kak"],
+         "responses": ["Hallo, makasih udah mampir", "Seneng ketemu lagi", "Iya, apa yang bisa aku bantu?"],
+         "context": [""]
+        },
+        {"tag": "bot_name",
+         "patterns": ["Siapa nama kamu?", "Kamu itu apa sih?", "Siapa nama lu?", "Lu itu apa?", "Lu bot apa?", "Kamu bot apa?", "Kamu bisa apa?"],
+         "responses": ["Namaku DearMe Bot", "Aku DearMe Bot", "Aku DearMe Bot yang menyediakan informasi mengenai toko DearMe", "Aku DearMe, menyediakan informasi order, retur, pengiriman, pembayaran."],
+         "context": [""]
+        },
+        {"tag": "weather",
+         "patterns": ["Gimana cuaca hari ini?", "Hari ini cerah ga?", "Hari ini ujan ya?", "Hari ini hujan kah?", "Apakah hari ini cerah?"],
+         "responses": ["Hari ini hujan", "Hari ini cuaca yang bagus untuk kamu yang manis"],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "Sampai jumpa", "Dadah", "Senang ngobrol sama kamu, bye", "Nanti lagi ya", "Sudah cukup, itu saja"],
+         "responses": ["Sampai jumpa", "Have a nice day, Dah", "Bye! Sampe ketemu di chat selanjutnya"],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Trims", "Makasih ya", "Terima kasih banyak", "Oke makasih ya info nya", "terima kasih sudah membantu", "thank you", "tengkyu", "tq", "thanks", "tengs"],
+         "responses": ["Senang bisa membantu", "Sama-sama", "Selamat beraktifitas"],
+         "context": [""]
+        },
+        {"tag": "noanswer",
+         "patterns": [],
+         "responses": ["Maaf, aku tidak mengerti maksud kamu", "Mohon lebih detail lagi", "Aku ga ngerti, maaf"],
+         "context": [""]
+        },
+        {"tag": "options",
+         "patterns": ["Apa yang bisa kamu lakukan?", "Kamu bisa bantu apa?", "Lu bisa bantu apa?", "Mohon dibantu ya", "Kamu bisa nolong apa?"],
+         "responses": ["Memberikan informasi tentang produk yang dijual dear me, informasi jika terjadi kerusakan barang, informasi singkat tentang grup kpop di dearme, informasi tentang pesanan di dearme"],
+         "context": [""]
+        },
+        {"tag": "merch_group",
+         "patterns": ["Merch group apa saja yang tersedia di DearMe?", "Merch group apa yang dijual?", "Barang grup apa yang kamu jual?", "Apa yang bisa kamu tawarkan?" ],
+         "responses": ["Untuk saat ini merch yang tersedia di DearMe hanya meliputi BTS dan The Boyz saja."],
+         "context": [""]
+        },
+        {"tag": "jenis_merch",
+         "patterns": ["Jenis merch apa saja yang tersedia di DearMe?", "Jenis merch apa saja yang dijual di DearMe?", "Jenis merch yang dijual apa?", "Kamu jualan jenis merch apa aja?", "Lu jual merch jenis apa?", "Lu jual apa?", "ada apa saja min?", "ada apa saja sis?", "ada apa saja kak?" ],
+         "responses": ["Merch yang tersedia di DearMe ada lightstick, album, photocard, dan lain-lain. Untuk lebih lengkapnya bisa langsung kunjungi website kami di dearme.com"],
+         "context": [""]
+        },
+        {"tag": "waktu_preorder",
+         "patterns": ["Berapa lama waktu preorder barang sampai ke Indonesia?", "Preorder barang butuh waktu berapa lama, sis?", "Barang preorder berapa hari sampai ke Indonesia min?", "Kira-kira PO berapa hari sampe indo?", "PO kesini berapa hari?", "Berapa lama sis PO?", "Berapa lama kak PO?", "Berapa lama min PO?" ],
+         "responses": ["Estimasi waktu preorder barang dari Korea sampai ke Indonesia kurang lebih satu minggu."],
+         "context": [""]
+        },
+        {"tag": "produk_original",
+         "patterns": ["Apakah produk yang dijual original?", "Apakah produk original kak?", "Produk yang dijual original?", "Ini barangnya ori ga min?", "Merch nya ori kan sis?" ],
+         "responses": ["Produk yang ada di kategori official merch semuanya merupakan barang original langsung dari Korea, sedangkan untuk kategori fanmerch itu merupakan produk buatan dari para fans yang telah bekerja sama dengan DearMe."],
+         "context": [""]
+        },
+        {"tag": "produk_rusak",
+         "patterns": ["Apa yang harus dilakukan jika ada produk yang rusak sis?", "Produk saya diterima dalam keadaan rusak kak.", "Produk rusak.", "Ini kok barangnya rusak ya min", "Barang yang diterima ga bagus", "Merchnya gabisa dipake", "Barang nya cacat waktu sampai" ],
+         "responses": ["Anda bisa mengajukan keluhan yang dialami dengan menghubungi kontak layang konsumen di nomor 021-xxx xxxxx"],
+         "context": [""]
+        },
+        {"tag": "bts",
+         "patterns": ["Siapakah BTS?", "BTS siapa ya?", "Gak kenal BTS", "Kalo boleh tau dia siapa?", "Tidak kenal mereka", "Siapa emang BTS" ],
+         "responses": ["BTS atau Bangtan Boys adalah grup vokal pria asal Korea Selatan. Grup ini beranggotakan tujuh orang, antara lain RM, J-Hope, Suga, Jin, V, Jungkook, dan Jimin, yang dikelola oleh Big Hit Music. Nama tersebut kemudian berakronim menjadi Beyond The Scene pada Juli 2017."],
+         "context": [""]
+        },
+        {"tag": "theboyz",
+         "patterns": ["Siapakah The Boyz?", "The Boyz siapa ya?", "Gak kenal The Boyz", "Kalo boleh tau dia siapa?", "Tidak kenal mereka", "Siapa emang The Boyz" ],
+         "responses": ["The Boyz adalah grup idola pria Korea Selatan di bawah naungan IST Entertainment. Grup ini debut pada 6 Desember 2017 dengan single utama Boy dari album mini debut mereka The First. Grup ini terdiri dari Sangyeon, Jacob, Younghoon, Hyunjae, Juyeon, Kevin, New, Q, Haknyeon, Sunwoo dan Eric."],
+         "context": [""]
+        },
+        {"tag": "nama_lightstick_bts",
+         "patterns": ["Apa nama dari lightstick BTS?", "Lightstick BTS namanya apa?", "Nama lightstick BTS", "Lightstick BTS itu apa?", "Yang ada army bomb itu apa ya?" ],
+         "responses": ["Lightstick BTS diberi nama ARMY Bomb."],
+         "context": [""]
+        },
+        {"tag": "lightstick_theboyz",
+         "patterns": ["Apa nama dari lightstick The Boyz?", "Lightstick The Boyz namanya apa?", "Nama lightstick The Boyz", "Lightstick The Boyz itu apa?", "Yang ada Heart Bbyong Bong itu apa ya?" ],
+         "responses": ["Dua member The Boyz, yakni Juyeon dan New mengusulkan nama untuk light stick itu Heart Bbyong Bong. Mereka menggabungkan frasa populer di Korea Heart bbyong-bbyong yang diganti dengan Bong atau berarti tongkat."],
+         "context": [""]
+        },
+        {"tag": "cara_pesan",
+         "patterns": ["Bagaimana cara pesan produk yang ada di DearMe?", "Cara pesen barang", "Cara pesan barang", "Kalo mau pesen gimana", "Pesen dong", "Pesennya dimana", "Pesan dimana" ],
+         "responses": ["Anda bisa melakukan transaksi awal dengan membayar uang muka terlebih dahulu di website kami, karena semua produk yang ada preorder. Setelah produk sampai di Indonesia barulah Anda melanjutkan transaksi dengan membayar pelunasan."],
+         "context": [""]
+        },
+        {"tag": "metode_pembayaran",
+         "patterns": ["Metode pembayaran apa saja yang diterima di DearMe?", "Metode pembayaran bisa pakai apa?", "Metode pembayaran pakai apa?", "Gimana cara bayarnya", "Mau bayar dimana", "Bisa bayar dimana", "Bayar pake apa?" ],
+         "responses": ["Metode pembayaran yang diterima di DearMe adalah transfer bank, serta digital wallet seperti Dana dan OVO."],
+         "context": [""]
+        },
+        {"tag": "ekspedisi",
+         "patterns": ["Ekspedisi pengiriman apa saja yang terhubung dengan DearMe?", "Bisa kirim melalui ekspedisi apa?", "Ekspedisi yang ada apa?", "Ekspedisi nya apa aja?", "Nanti ekspedisinya gimana?", "Bisa pake expedisi apa aja?", "Apa saja expedisi yang ada?", "Pengiriman yang bisa dipake?", "Pengiriman yang ada?", "Pengiriman yang tersedia?" ],
+         "responses": ["Ekspedisi pengiriman yang terhubung dengan DearMe adalah JNE, J&T, SiCepat, dan AnterAja."],
+         "context": [""]
+        },
+        {"tag": "cod",
+         "patterns": ["Apakah bisa menggunakan metode pembayaran COD?", "Bisa COD?", "Apakah bisa COD?", "Cash on delivery bisa ga?", "COD bisa ga?", "COD ya?", "Sudah support COD kah?" ],
+         "responses": ["Mohon maaf untuk saat ini DearMe masih belum dapat menerima metode pembayaran COD."],
+         "context": [""]
+        },
+        {"tag": "ready",
+         "patterns": ["Apakah DearMe menjual produk ready stock?", "Produk ready?", "Produk masih ada?", "Masih ada ga barangnya?", "Ready kak?", "Merch nya ada stock?", "Masih ada stok ga?", "Masih bisa order barang ready kah?", "Merch nya ready gak kak?", "Mau pesen merch kak, ada gak kak?" ],
+         "responses": ["DearMe tidak menjual produk ready stock, semuanya harus preorder."],
+         "context": [""]
+        },
+        {"tag": "packing",
+         "patterns": ["Apakah packing produk dari DearMe aman?", "Bisa dipacking aman?", "Packing yang aman", "Tolong pake tube ya", "Bubble wrap ya kak", "Bungkus yang rapih ya kak", "Jangan sampe barang damage/rusak kak", "Packingnya jangan asal-asalan ya", "Apakah packing merch nya dari DearMe aman?", "Packing barang aman kan?" ],
+         "responses": ["Produk yang akan dikirimkan dari DearMe dipastikan sudah sangat aman, Anda tidak perlu khawatir dengan keselamatan paket pesanan Anda."],
+         "context": [""]
+        }
+   ]
+}
